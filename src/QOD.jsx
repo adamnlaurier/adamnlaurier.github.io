@@ -87,7 +87,7 @@ export default function () {
                 ],
                 correctAnswer: "Secured ladder"
             }];
-    const nQuestion = 10;
+    const nQuestion = Math.floor((Math.random() * questions.length));
     const surveyJson = {
         title: "Fall Protection Plan",
         showCorrectAnswer: "always",
